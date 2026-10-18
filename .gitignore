@@ -1,0 +1,9 @@
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Archivos temporales de SSMS
+*.ssmssqlproj.user
+*.bak
