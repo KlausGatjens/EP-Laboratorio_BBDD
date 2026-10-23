@@ -1,0 +1,17 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430">
+<style>text{font-family:Arial,sans-serif;fill:#172b4d}.title{font-size:24px;font-weight:bold}.name{font-size:20px;font-weight:bold}.field{font-size:16px}.card{fill:#f4f7fb;stroke:#334e68;stroke-width:2}.link{stroke:#334e68;stroke-width:2;fill:none}</style>
+<rect width="1000" height="430" fill="white"/>
+<text x="35" y="40" class="title">Restaurante: Clientes, Mesas y Reservas</text>
+<rect x="30" y="95" width="245" height="270" rx="8" class="card"/>
+<text x="50" y="130" class="name">Clientes</text>
+<text x="50" y="165" class="field"><tspan x="50">PK idCliente</tspan><tspan x="50" dy="28">nombres</tspan><tspan x="50" dy="28">apellidos</tspan><tspan x="50" dy="28">correo (único)</tspan><tspan x="50" dy="28">telefono</tspan><tspan x="50" dy="28">fechaRegistro</tspan></text>
+<rect x="380" y="75" width="260" height="335" rx="8" class="card"/>
+<text x="400" y="110" class="name">Reservas</text>
+<text x="400" y="145" class="field"><tspan x="400">PK idReserva</tspan><tspan x="400" dy="28">FK idCliente</tspan><tspan x="400" dy="28">FK idMesa</tspan><tspan x="400" dy="28">fechaInicio</tspan><tspan x="400" dy="28">fechaFin</tspan><tspan x="400" dy="28">numeroPersonas</tspan><tspan x="400" dy="28">observaciones</tspan><tspan x="400" dy="28">fechaCreacion</tspan></text>
+<rect x="745" y="95" width="225" height="270" rx="8" class="card"/>
+<text x="765" y="130" class="name">Mesas</text>
+<text x="765" y="165" class="field"><tspan x="765">PK idMesa</tspan><tspan x="765" dy="28">numero (único)</tspan><tspan x="765" dy="28">capacidad</tspan><tspan x="765" dy="28">activa</tspan><tspan x="765" dy="28">fechaCreacion</tspan></text>
+<path d="M275 190 H380 M640 220 H745" class="link"/>
+<text x="285" y="180" class="field">1</text><text x="340" y="180" class="field">0..N</text>
+<text x="650" y="210" class="field">0..N</text><text x="725" y="210" class="field">1</text>
+</svg>
